@@ -411,15 +411,15 @@ img {
     margin: 0px 0px 0px 0px;
     padding: 0;
     margin: -1px;
-        position: absolute;
-        white-space: nowrap;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-        border: 0;
-        padding: 0;
-        clip: rect(0 0 0 0);
-        clip-path: inset(50%);
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
 }
 
 .checkbox:checked + .checkbox-icon {
@@ -430,16 +430,19 @@ img {
 }
 
 .checkbox-icon {
-    display: inline-block;
+    display: block;
     position: absolute;
     margin-right: 0px;
     border: 2px solid var(--primary-text-color);
     border-radius: 2px;
     fill: transparent;
+    left: 0;
+    top: 4px;
 }
 
 .contract-conditions {
     color: var(--accent-color);
+    padding-left: 4px;
 }
 
 
